@@ -1,12 +1,10 @@
 with open("input.txt", "r") as f:
     w = list(map(lambda s: s.replace("\n", ""), f.readlines()))
-    n = 0; i = 1; j = 3
-    while i < len(w):
-        s = w[i][: j % len(w[0])]
-        if w[i][j % len(w[0])] == ".":
-            s += "O"
-        else:
-            s += "X"; n += 1
-        s += w[i][j % len(w[0]) + 1 :]
-        j += 3; i += 1
+    l, x, y = len(w[0]), 3, 1
+    n = 0 if not w[y][x] == "X" else 1
+    while y < len(w):
+        if w[y][x % l] == "#":
+            n += 1;
+        else: pass 
+        x += 3; y += 1
     print(n)
