@@ -1,0 +1,23 @@
+new run
+current:  1 bright white bag, 2 muted yellow bags.
+
+current:  3 bright white bags, 4 muted yellow bags.
+
+current:  1 shiny gold bag.
+
+incrementing
+tracing: bright white bag
+current:  2 shiny gold bags, 9 faded blue bags.
+
+incrementing
+tracing: muted yellow bag
+current:  1 dark olive bag, 2 vibrant plum bags.
+
+current:  3 faded blue bags, 4 dotted black bags.
+
+current:  5 faded blue bags, 6 dotted black bags.
+
+current:  no other bags.
+
+current:  no other bags.
+
