@@ -1,2 +1,0 @@
-(with-open-file (stream "../../input.txt")
-  (read-line stream nil))
